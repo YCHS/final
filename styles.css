@@ -1,0 +1,119 @@
+h1 { font-family: arial;
+text-align: center;
+  
+margin-top: 200px;
+  margin-bottom: 80px;
+}
+
+/* a{ 
+} */
+
+p { 
+/* position:absolute;
+top:800px;  
+margin-left:auto;
+margin-right:auto; */
+font-family: "arial";
+text-align: center;
+font-size:20px;  
+margin-top: 90px;
+}
+
+body{ background-color: #f2f2f2;
+}
+
+
+
+
+
+.logochange{
+  position:absolute;
+  top:500px;
+  left:400px;
+display:inline-block;
+font-family:helvetica;
+font-size:40px;
+animation-name:change;
+animation-duration:5s;
+animation-iteration-count:infinite;
+animation-timing-function:linear;}
+
+
+@keyframes change{
+/*   10% {font-family: 'Mina', sans-serif;color:red;}
+  20% {font-family: 'Coiny', cursive;color:red;}
+  30% {font-family: 'Karma', serif; color:red;}
+  40% {font-family: 'Josefin Sans', sans-serif;color:red;}
+  50% {font-family: 'Indie Flower', cursive; color:red;}
+  60% {font-family: 'Abril Fatface', cursive;color:red;}
+  70% {font-family: 'Quicksand', sans-serif;color:red;}
+  80% {font-family: 'Lobster', cursive;color:red;}
+  100%{font-family: 'Bowlby One SC', cursive;color:red;}
+  90%{font-family: 'Cormorant Garamond', serif;color:red;} */
+  5%{font-family: 'Letter Gothic Std';color:red;}
+  90%{font-family: 'Cormorant Garamond', serif;color:red;}
+  15%{font-family: 'Alternate Gothic No. 1 D';color:red;}  
+  25%{font-family: 'quicksand';color:red;}  
+  35%{font-family: 'Bebas Neue';color:red;}  
+  45%{font-family: 'Vast Shadow';color:red;}  
+  55%{font-family: '';color:red;}  
+  65%{font-family: '';color:red;}  
+  75%{font-family: '';color:red;}  
+  85%{font-family: '';color:red;}  
+  95%{font-family: '';color:red;}  
+}
+
+.logochange {
+  margin-left:auto;
+  margin-right:auto;
+  height:100px;
+  width:200px
+}
+
+.arrow{
+margin-top:200px;}
+
+
+
+
+.logochange2{position:absolute;
+  top:500px;
+  left:700px;
+  display:inline-block;
+font-family:helvetica;
+font-size:40px;
+animation-name:change2;
+animation-duration:5s;
+animation-iteration-count:infinite;
+animation-timing-function:linear;}
+
+
+@keyframes change2{
+/*   20% {font-family: 'Mina', sans-serif;color:yellow;}
+  90% {font-family: 'Coiny', cursive;color:yellow;}
+  80% {font-family: 'Karma', serif;color:yellow;}
+  70% {font-family: 'Josefin Sans', sans-serif;color:yellow;}
+  60% {font-family: 'Indie Flower', cursive;color:yellow;}
+  50% {font-family: 'Abril Fatface', cursive;color:yellow;}
+  40% {font-family: 'Quicksand', sans-serif;color:yellow;}
+  30% {font-family: 'Lobster', cursive;color:yellow;}
+  100%{font-family: 'Bowlby One SC', cursive;color:yellow;}
+  10%{font-family: 'Cormorant Garamond', serif;color:yellow;} */
+  5%{font-family: 'futura PT';color:yellow;}
+  15%{font-family: 'Jaf facit';color:yellow;}  
+  25%{font-family: 'Comic Serif Pro';color:yellow;}  
+  35%{font-family: 'DIN Condensed Web';color:yellow;}  
+  45%{font-family: 'Playfair Display';color:yellow;}  
+  55%{font-family: '';color:yellow;}  
+  65%{font-family: '';color:yellow;}  
+  75%{font-family: '';color:yellow;}  
+  85%{font-family: '';color:yellow;}  
+  95%{font-family: '';color:yellow;}  
+}
+
+.logochange2 {
+  margin-left:auto;
+  margin-right:auto;
+  height:100px;
+  width:200px
+}
