@@ -1,0 +1,66 @@
+.head{width:72px;
+height:90px;}
+.jacket{width:250px;
+height:280px;}
+.pants{width:290px;
+height:310px}
+
+body {
+  margin:0;
+}
+
+.content1{
+  position:absolute;
+  top:148px;
+  left:546px;
+  z-index:0;
+  height:90px;
+  overflow:hidden;
+
+}
+
+
+.content2{
+  position:absolute;
+  top:200px;
+  left:460px;
+  z-index:-50;
+  height:280px;
+  overflow:hidden;
+
+}
+
+.content3{
+  position:absolute;
+  top:390px;
+  left:440px;
+  z-index:-99;
+  height:310px;
+  overflow:hidden;
+
+}
+
+.backgroundimage{
+  width:130%;
+  height:130%;
+  position:absolute;
+  top:60px;
+  z-index:-200;
+}
+
+
+.button1{
+  position:absolute;
+  top:20px;
+  left:10px;
+}
+.button2{
+  position:absolute;
+  top:20px;
+  left:180px;
+}
+.button3{
+  position:absolute;
+  top:20px;
+  left:350px;
+}
