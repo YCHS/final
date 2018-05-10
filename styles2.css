@@ -11,8 +11,9 @@ body {
 
 .content1{
   position:absolute;
-  top:148px;
-  left:546px;
+  top:198px;
+  left:646px;
+/*   left:48vw; */
   z-index:0;
   height:90px;
   overflow:hidden;
@@ -22,8 +23,9 @@ body {
 
 .content2{
   position:absolute;
-  top:200px;
-  left:460px;
+  top:250px;
+  left:560px;
+/*     left:44vw; */
   z-index:-50;
   height:280px;
   overflow:hidden;
@@ -32,8 +34,9 @@ body {
 
 .content3{
   position:absolute;
-  top:390px;
-  left:440px;
+  top:440px;
+  left:540px;
+/*     left:43vw; */
   z-index:-99;
   height:310px;
   overflow:hidden;
@@ -41,26 +44,154 @@ body {
 }
 
 .backgroundimage{
-  width:130%;
-  height:130%;
   position:absolute;
-  top:60px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  margin-left:auto;
+  margin-right:auto;
   z-index:-200;
 }
 
-
 .button1{
   position:absolute;
-  top:20px;
-  left:10px;
+  height:100px;
+  width:330px;
+  top:190px;
+  left:440px;
+  color:red;
+
 }
 .button2{
   position:absolute;
-  top:20px;
-  left:180px;
+  height:200px;
+  width:330px;
+  top:290px;
+  left:440px;
+  color:yellow;
 }
 .button3{
   position:absolute;
-  top:20px;
-  left:350px;
+  height:250px;
+  width:330px;
+  top:490px;
+  left:440px;
+  color:blue;
 }
+
+.img1{
+  z-index:-500;
+  position:fixed;
+
+/*   width:300px;
+  height:150px; */
+/*   background:url("https://cdn.glitch.com/a07583f6-afd6-40eb-b579-471c5a6b8d98%2Fnews.png?1525813497938"); */
+}
+
+.backgroundimage2{
+  top:60px;
+  position:relative;
+/* left:50%; */
+  z-index:-120;
+  animation-name: size;
+  animation-duration: 2s;  
+}
+@keyframes size {
+        0% {
+            transform: scale(0);
+            -webkit-transform: scale(0);
+        }
+        100% {
+            transform: scale(1.0);
+            -webkit-transform: scale(1.0);
+  }
+
+}
+/*   opacity:0 */
+
+/* .burned:hover
+{
+	opacity:1;
+} */
+
+
+
+
+.logochange{
+  text-align: center;
+  top:60px;
+  position:absolute;
+  width:78vw;
+font-family: 'Bowlby One SC', cursive;
+color:red;
+font-size:4.5vw;
+animation-name:change;
+/* animation-duration:3s;
+animation-iteration-count:infinite; */
+animation-duration: 5s;  
+animation-timing-function:linear;
+}
+
+
+@keyframes change{
+          0% {
+            transform: scale(0);
+            -webkit-transform: scale(0);}
+        100% {
+            transform: scale(1.0);
+            -webkit-transform: scale(1.0);}
+  6% {font-family: 'Cormorant Garamond', sans-serif;color:gray;}
+  12% {font-family: 'Signika', cursive;color:gray;}
+  18% {font-family: 'Black Han Sans', serif; color:gray;}
+  24% {font-family: 'Gugi', sans-serif;color:gray;}
+  30% {font-family: 'Anton', cursive; color:gray;}
+  36% {font-family: 'Jua', cursive;color:gray;}
+  42% {font-family: 'Abril Fatface', sans-serif;color:gray;}
+  48% {font-family: 'Lobster', cursive;color:gray;}
+  60%{font-family: 'Bowlby One SC', cursive;color:gray;}
+  54%{font-family: 'Do Hyeon', serif;color:gray;} 
+}
+
+
+
+.logochange2{
+  text-align: center;
+  top:60px;
+  position:absolute;
+  width:122vw;
+font-family: 'Bowlby One SC', cursive;
+color:blue;
+font-size:4.5vw;
+animation-name:change2;
+animation-duration:3s;
+/* animation-iteration-count:infinite; */
+animation-duration: 5s;  
+animation-timing-function:linear;
+}
+
+
+@keyframes change2{
+            0% {
+            transform: scale(0);
+            -webkit-transform: scale(0);}
+        100% {
+            transform: scale(1.0);
+            -webkit-transform: scale(1.0);}
+  12% {font-family: 'Sacramento', sans-serif;color:gray;}
+  54% {font-family: 'Orbitron', cursive;color:gray;}
+  48% {font-family: 'Russo One', serif;color:gray;}
+  42% {font-family: 'Shadows Into Light', sans-serif;color:gray;}
+  36% {font-family: 'Passion One', cursive;color:gray;}
+  30% {font-family: 'Great Vibes', cursive;color:gray;}
+  24% {font-family: 'Play', sans-serif;color:gray;}
+  18% {font-family: 'Berkshire Swash', cursive;color:gray;}
+  60%{font-family: 'Bowlby One SC', cursive;color:gray;}
+  6%{font-family: 'Poiret One', serif;color:gray;}
+}
+
+
+.logo{height:70px;
+margin-left:auto;
+margin-right:auto;
+}
+
